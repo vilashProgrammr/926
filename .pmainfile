@@ -1,0 +1,4 @@
+{"mainfile":"object_detection.py",
+"compilemenucommand":"python object_detection.py",
+"runmenucommand":"python object_detection.py"
+}
