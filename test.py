@@ -56,7 +56,7 @@ def load_image_into_numpy_array(image):
 with detection_graph.as_default():
     with tf.Session(graph=detection_graph) as sess:
         for image_path in TEST_IMAGE_PATHS:
-            image = Image.open('TESTIMAGE.JPG')
+            image = Image.open('TESTIMAGE.jpg')
             # the array based representation of the image will be used later in order to prepare the
             # result image with boxes and labels on it.
             image_np = load_image_into_numpy_array(image)
@@ -84,5 +84,5 @@ with detection_graph.as_default():
                 use_normalized_coordinates=True,
                 line_thickness=8)
             im = Image.fromarray(image_np)
-            im.save("CONVERTED_TESTIMAGE.JPG")
+            im.save("CONVERTED_TESTIMAGE.jpg")
             break
