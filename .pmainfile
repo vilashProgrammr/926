@@ -1,4 +1,4 @@
-{"mainfile":"object_detection.py",
-"compilemenucommand":"python object_detection.py",
-"runmenucommand":"python object_detection.py"
+{"mainfile":"test.py",
+"compilemenucommand":"python3 test.py",
+"runmenucommand":"python3 test.py"
 }
