@@ -85,4 +85,5 @@ with detection_graph.as_default():
                 line_thickness=8)
             im = Image.fromarray(image_np)
             im.save("CONVERTED_TESTIMAGE.jpg")
+            sess.close()
             break
